@@ -16,6 +16,12 @@ The quiz consists of 3 questions related to Python and AskPython.
 - **Question 2:** Do you follow any author on AskPython?
 - **Question 3:** What is the name of your favorite website for learning Python?
 
+
+## Run the Quiz
+
+```bash
+python quiz.py
+
 ## Scoring
 Example
 - Each correct answer adds to your score.
@@ -31,10 +37,3 @@ correct
 Thank you for Playing this small quiz game, you attempted 3 questions correctly!
 Marks obtained: 100%
 BYE!
-
-
-## Run the Quiz
-
-```bash
-python quiz.py
-
