@@ -22,18 +22,5 @@ The quiz consists of 3 questions related to Python and AskPython.
 ```bash
 python quiz.py
 
-## Scoring
-Example
-- Each correct answer adds to your score.
-- Your final score is displayed at the end of the quiz.
-Welcome to AskPython Quiz
-Are you ready to play the Quiz? (yes/no) :yes
-Question 1: What is your Favourite programming language?python
-correct
-Question 2: Do you follow any author on AskPython? yes
-correct
-Question 3: What is the name of your favourite website for learning Python?AskPython
-correct
-Thank you for Playing this small quiz game, you attempted 3 questions correctly!
-Marks obtained: 100%
-BYE!
+
+![Screenshot 2024-03-08 222557](https://github.com/OpAbhiG/Quick-Quiz-Game-/assets/110295591/b6b88560-117c-48a6-96cf-8ef18b3f5c6f)
