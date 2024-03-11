@@ -20,4 +20,3 @@ The quiz consists of 3 questions related to Python and AskPython.
 python quiz.py
 
 
-![Screenshot 2024-03-08 222557](https://github.com/OpAbhiG/Quick-Quiz-Game-/assets/110295591/efa7e8e6-4d0b-4fca-bb42-9703fdb0b021)
