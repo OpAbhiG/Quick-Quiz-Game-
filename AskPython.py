@@ -1,35 +1,32 @@
-print('Welcome to the Python Basics Quiz')
-answer = input('Are you ready to play the Quiz? (yes/no): ').strip().lower()
-score = 0
-total_questions = 3
-
-if answer == 'yes':
-    print("\nQuestion 1: What symbol do you use to start a comment in Python?")
-    user_answer = input("Your answer: ").strip()
-    if user_answer == '#':
+print('Welcome to python Quiz')
+answer=input('Are you ready to play the Quiz ? (yes/no) :')
+score=0
+total_questions=3
+ 
+if answer.lower()=='yes':
+    answer=input('Question 1: What symbol do you use to start a comment in Python?')
+    if answer.lower()=='#':
         score += 1
-        print('Correct!')
+        print('correct')
     else:
         print('Wrong Answer :(')
-
-    print("\nQuestion 2: How do you print 'Hello, World!' in Python?")
-    user_answer = input("Your answer: ").strip()
-    if user_answer == 'print("Hello, World!")' or 'print("hello, world")' :
+ 
+ 
+    answer=input('Question 2: How do you print 'Hello, World!' in Python? ')
+    if answer.lower()=='print("hello world")':
         score += 1
-        print('Correct!')
+        print('correct')
     else:
         print('Wrong Answer :(')
-
-    print("\nQuestion 3: What is the keyword used to define a function in Python?")
-    user_answer = input("Your answer: ").strip()
-    if user_answer == 'def':
+ 
+    answer=input('Question 3: What is the keyword used to define a function in Python?')
+    if answer.lower()=='def':
         score += 1
-        print('Correct!')
+        print('correct')
     else:
         print('Wrong Answer :(')
-
-print('\nThank you for playing this small quiz game!')
-print('You answered', score, "out of", total_questions, "questions correctly.")
-percentage_correct = (score / total_questions) * 100
-print('Percentage Correct:', percentage_correct, '%')
-print('BYE!')
+ 
+print('Thankyou for Playing this small quiz game, ',score,"questions right!")
+mark=(score/total_questions)*100
+print('Marks obtained:',mark)
+print('Thankyou!')
