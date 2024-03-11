@@ -12,7 +12,7 @@ if answer.lower()=='yes':
         print('Wrong Answer :(')
  
  
-    answer=input('Question 2: How do you print 'Hello, World!' in Python? ')
+    answer=input('Question 2: How do you print Hello, World in Python? ')
     if answer.lower()=='print("hello world")':
         score += 1
         print('correct')
